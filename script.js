@@ -15,10 +15,14 @@ document.getElementById("yearSubmit").addEventListener("click", function(event) 
 	    console.log(json.response.holidays);
 	    let results = "";
 	    for (let i=0; i < json.response.holidays.length; i++) {
+		results += "<div>"
 		results += json.response.holidays[i].date.iso
+		results += "</div>"
+
 		if (i !== json.response.holidays.length - 1)
-		    results += ", "
+		    results += "<br>"
 	    }
+	    results += "<div></div>"
 	    
 	    document.getElementById("holidays").innerHTML = results;
 
