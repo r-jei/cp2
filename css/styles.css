@@ -1,0 +1,90 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+.main {
+  /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: white;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  margin-top:20px;
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #999999;
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.bg-dark{
+    background-color: #545e56;
+}
+
+
+
+.bg-lite{
+    background-color: #eae1df !important;
+}
+
+.center{
+    text-align: center;
+}
+
+.port-img{
+    margin-top:20px;
+    margin-bottom:20px;
+    width:100%;
+}
+
+.full-img{
+    width:100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 5vh;
+}
+
+.review{
+    height:100px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:40px;
+    padding-top:10px;
+    padding-right:10px;
+    word-wrap: break-word;
+
+}
+
+.rev-txt{
+    font-size:3vw;
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+.rite{
+    text-align: right;
+}
+
+.intro-txt{
+    margin-top:10px;
+    font-size:3vw;
+    text-align: center;
+}
+
+img {
+    
+    
+}
